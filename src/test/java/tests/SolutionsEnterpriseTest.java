@@ -19,7 +19,6 @@ public class SolutionsEnterpriseTest {
 
     @Test
     void shouldFindSelenideRepositoryAtTheTopTest() {
-
         open("");
         $(".header-menu-wrapper").$(byText("Solutions")).hover();
         $(".header-menu-wrapper").$(byText("Enterprise")).click();
